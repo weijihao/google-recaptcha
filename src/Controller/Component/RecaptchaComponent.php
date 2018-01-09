@@ -27,6 +27,7 @@ class RecaptchaComponent extends Component
         'lang' => 'en',
         'size' => 'normal',
         'callback' => '',//onSubmit
+        'badge' => 'inline',//data-badge	bottomright|bottomleft|inline
         'httpClientOptions' => [],
     ];
 

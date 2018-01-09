@@ -1,5 +1,5 @@
 {
-  "name": "crabstudio/recaptcha",
+  "name": "weijihao/google-recaptcha",
   "type": "cakephp-plugin",
   "description": "Easily use Google Recaptcha in CakePHP 3.2+ projects",
   "keywords": [
@@ -16,17 +16,21 @@
     "crabstudio/email-queue": "Allows you to simple send bulk email",
     "crabstudio/authenticate": "Prevent Brute Force Attack"
   },
-  "homepage": "https://github.com/crabstudio/recaptcha",
+  "homepage": "https://github.com/weijihao/recaptcha",
   "license": "MIT",
   "authors": [
     {
       "name": "anhtuank7c",
       "email": "anhtuank7c@hotmail.com"
+    },
+    {
+      "name": "weijihao",
+      "email": "weijihao0318@gmail.com"
     }
   ],
   "support": {
-    "issues": "https://github.com/crabstudio/recaptcha/issues",
-    "source": "https://github.com/crabstudio/recaptcha",
+    "issues": "https://github.com/weijihao/recaptcha/issues",
+    "source": "https://github.com/weijihao/recaptcha",
     "wiki": "https://github.com/google/recaptcha"
   },
   "require": {

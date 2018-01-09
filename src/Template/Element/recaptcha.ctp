@@ -16,6 +16,9 @@ var CaptchaCallback = function() {
     <?php if (isset($recaptcha['callback']) && empty($recaptcha['callback'])): ?>
     data-callback="<?= $recaptcha['callback'] ?>"
     <?php endif; ?>
+    <?php if (strtolower($recaptcha['size']) == 'invisible' && !empty($recaptcha['badge'])): ?>
+    data-badge="<?= $recaptcha['badge'] ?>"
+    <?php endif ?>
     async defer>
 </div>
 <noscript>
